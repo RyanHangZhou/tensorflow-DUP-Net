@@ -25,7 +25,7 @@ Install TensorFlow. The code has been tested with Python 3.6, TensorFlow 1.12.0,
 
 Usage
 --
-To process a point cloud a model by DUP-Net:
+To process a point cloud by DUP-Net:
 
     # Statistical outlier removal (SOR)
     python filter.py --removal sor \
@@ -38,6 +38,11 @@ To process a point cloud a model by DUP-Net:
                        --up_ratio 2 \
                        --test_path 'data/modelnet40_filtered' \
                        --upsampled_dir 'data/modelnet40_upsampled/upsampled_test'
+
+ To classify the processed point cloud:
+    python evaluate_filtered_targeted_adv.py --num_classes 40 \
+                                             --model_path 'log/modelnet40_pointnet/model.ckpt' \
+                                             --test_path 'data/modelnet40_upsampled'
 
 License
 --
