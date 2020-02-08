@@ -21,7 +21,7 @@ If you find our work useful in your research, please consider citing:
 
 Installation
 --
-Install TensorFlow. You may also need to install h5py. The code has been tested with Python 3.6, TensorFlow 1.12.0, CUDA 9.0 and cuDNN 7 on Ubuntu 16.04.
+Install TensorFlow. The code has been tested with Python 3.6, TensorFlow 1.12.0, CUDA 9.0 and cuDNN 7 on Ubuntu 16.04.
 
 Usage
 --
