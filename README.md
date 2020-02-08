@@ -28,7 +28,7 @@ Usage
 To process a point cloud by DUP-Net:
 
     # Statistical outlier removal (SOR)
-    python filter.py --removal sor \
+    python filter.py --removal 'sor' \
                      --batch_size 4 \
                      --test_path 'data/lsgan_bro1_nogan2' \
                      --filtered_dir 'data/modelnet40_filtered/filtered_test'
