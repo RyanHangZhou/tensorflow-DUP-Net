@@ -40,6 +40,7 @@ To process a point cloud by DUP-Net:
                        --upsampled_dir 'data/modelnet40_upsampled/upsampled_test'
 
  To classify the processed point cloud:
+ 
     python evaluate_filtered_targeted_adv.py --num_classes 40 \
                                              --model_path 'log/modelnet40_pointnet/model.ckpt' \
                                              --test_path 'data/modelnet40_upsampled'
