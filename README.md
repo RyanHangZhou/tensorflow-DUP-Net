@@ -25,6 +25,8 @@ Install TensorFlow. The code has been tested with Python 3.6, TensorFlow 1.12.0,
 
 Usage
 --
+Compile sh files in directory "tf_ops/" before usage.
+
 To process a point cloud by DUP-Net:
 
     # Statistical outlier removal (SOR)
