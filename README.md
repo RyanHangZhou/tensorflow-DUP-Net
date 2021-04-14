@@ -1,5 +1,5 @@
 # DUP-Net: Denoiser and Upsampler Network for 3D Adversarial Point Clouds Defense
-Created by [Hang Zhou](http://home.ustc.edu.cn/~zh2991/), [Kejiang Chen](http://home.ustc.edu.cn/~chenkj/), [Weiming Zhang](http://staff.ustc.edu.cn/~zhangwm/index.html), Han Fang, Wenbo Zhou, [Nenghai Yu](http://staff.ustc.edu.cn/~ynh/).
+Created by [Hang Zhou](http://www.sfu.ca/~hza162/), [Kejiang Chen](http://home.ustc.edu.cn/~chenkj/), [Weiming Zhang](http://staff.ustc.edu.cn/~zhangwm/index.html), [Han Fang](http://home.ustc.edu.cn/~fanghan/), [Wenbo Zhou](http://staff.ustc.edu.cn/~welbeckz/), [Nenghai Yu](http://staff.ustc.edu.cn/~ynh/).
 
 Introduction
 --
